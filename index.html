@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hol a piros</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="piros.js"defer></script>
+</head>
+<body>
+    <div class="container bg-light">
+        <h4 class="text-center">Hol a piros</h4>
+        <div class="holder">
+            <input id="meret" class="form-control" type="text" placeholder="A rács mérete">
+            <button onclick="start()" class="btn btn-primary">start</button>
+            <button  onclick="reload()" class="btn btn-info">új játék</button>
+        </div>
+        <div class="row justify-content-center">
+            <div onclick="pozicio(event)" id="racs"></div>
+        </div>
+    </div>
+</body>
+</html>

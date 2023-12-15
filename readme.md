@@ -12,4 +12,4 @@
 - username,email ell:
     > git config user.name , user.email
 - létrehozzuk a legújabb verziót, eltároljuk a helyi repoba:
-    > git commit -m "first commit""# red" 
+    > git commit -m "first commit"
